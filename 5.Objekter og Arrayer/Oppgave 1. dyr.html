@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dyr</title>
 </head>
 
+<p>Her er det listet opp noen dyr, for eksempel: <span id="animal"></span></p>
 
 <body>
 
-<script>
 
+<script>
 const dyr = ["Sau","Katt","Hund", "Esel", "Løve", "Tiger", "Zebra", "Ape", "Fisk", "Hai"]
+console.log(dyr)
+// Array fungerer
+
+// Skriver ut dyr med dyrIndex
+const dyrIndex7 = 7
+document.getElementById("animal").innerHTML = dyr [dyrIndex7]
 
 </script>
     
     
 </body>
 </html>
-
-
-
-Oppgave 1: Oversikt over dyr
-Lag en fil kalt dyr.html. I filen, opprett en variabel kalt dyr, 
-som skal inneholde en array med 10 ulike dyrearter. 
-Lag en variabel hvor du bruker en template literal med tekst og 
-variabel-referanser til arrayen så du får en setning som ser slik ut:
-
-"Her er det listet opp noen dyr, for eksempel XXX og XXX."
-
-XXX og XXX skal selvfølgelig ikke stå der, her skal du skrive ut dyret på index 3 og index 7 ved hjelp av array-variabelnavnet og indexer.
-
-Skriv ut tekststrengen til en <p>-tag med id-en utskrift.
