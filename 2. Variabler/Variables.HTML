@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables cheat sheet</title>
+</head>
+<body>
+
+    
+    <h1 id="HeadLine"> Variabler</h1>
+    <p>Her lærer vi litt om variabler</p>
+    <p>Variabler kan tenkes på som gaver.</p>
+    <p>Gaver vi gir, vet vi hva innhlder.</p>
+    <p>Gaver vi får, må vi pakke opp</p>
+
+    <script>
+        const newHeadLine = "Cheat_Sheets"
+        console.log(newHeadLine)
+        // Finn HTML- elemnt med id headline, og bytt ut verdien
+        // h1 blir manipulert fra og med linje 14 - Script delen
+        // GetElementID tar bare en ID, mens queryselector tar fler
+        //Developer.Mozilla.org god nettsiden for forklaring på koder
+
+        document.getElementById("HeadLine").innerHTML = newHeadLine
+        const newStatement = 10 + 12
+        console.log(newStatement)
+        document.querySelector("p").innerHTML = newStatement;
+
+    </script>
+    
+</body>
+</html>
