@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For-Løkker</title>
+</head>
+<body>
+
+    <ul id="telleren"></ul>
+
+        <script>
+
+        // Her kjører vi kode for hver runde løkken kjører
+        //for(let start, stopp, utregning) { Her kjører vi kode for hver runde løkken kjører }
+        
+        // Vi starter på 0, vi stopper på lik 5 eller mindre og vi legger til teller++(teller +1)
+            
+                 var utskrift = "";
+
+            for(let teller= 0; teller <=5; teller++) {
+                utskrift += `<li>${teller}</li>`;
+                 
+                }   
+                
+                 document.getElementById("telleren").innerHTML = utskrift;
+
+            
+        </script>
+
+
+
+    
+</body>
+</html>
